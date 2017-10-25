@@ -1,0 +1,152 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "webslides@^1.4.2",
+        "scope": null,
+        "escapedName": "webslides",
+        "name": "webslides",
+        "rawSpec": "^1.4.2",
+        "spec": ">=1.4.2 <2.0.0",
+        "type": "range"
+      },
+      "C:\\Users\\lima\\Desktop\\mvc"
+    ]
+  ],
+  "_from": "webslides@>=1.4.2 <2.0.0",
+  "_id": "webslides@1.4.2",
+  "_inCache": true,
+  "_location": "/webslides",
+  "_nodeVersion": "6.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/webslides-1.4.2.tgz_1505204191858_0.43762539606541395"
+  },
+  "_npmUser": {
+    "name": "alaguna",
+    "email": "sombragriselros@gmail.com"
+  },
+  "_npmVersion": "5.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "webslides@^1.4.2",
+    "scope": null,
+    "escapedName": "webslides",
+    "name": "webslides",
+    "rawSpec": "^1.4.2",
+    "spec": ">=1.4.2 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/webslides/-/webslides-1.4.2.tgz",
+  "_shasum": "86d1bf3db4a30abad513d28f741c3c9912033c92",
+  "_shrinkwrap": null,
+  "_spec": "webslides@^1.4.2",
+  "_where": "C:\\Users\\lima\\Desktop\\mvc",
+  "author": {
+    "name": "Jose Luís Antúnez",
+    "email": "jlantunez@gmail.com"
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ]
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/webslides/webslides/issues"
+  },
+  "contributors": [
+    {
+      "name": "Luís Sacristán"
+    },
+    {
+      "name": "Antonio Laguna",
+      "email": "a.laguna@funcion13.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "Making HTML presentations easy",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "codecov": "^2.3.0",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.4.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "jest": "^20.0.4",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.0.2",
+    "postcss-loader": "^2.0.6",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^2.6.1",
+    "sass-lint": "^1.10.2",
+    "sass-loader": "^6.0.6",
+    "simulant": "^0.2.2",
+    "smart-banner-webpack-plugin": "^3.0.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-79YEy+1IDSLmcEPNOPNwxsHFPFp8hgjI3HSyWY7+fqOpk793ZoxWnYk15TtuoBanhDWsDpWasEUiReNt0R2CNw==",
+    "shasum": "86d1bf3db4a30abad513d28f741c3c9912033c92",
+    "tarball": "https://registry.npmjs.org/webslides/-/webslides-1.4.2.tgz"
+  },
+  "gitHead": "71f2fd52b94d451491ca78cc769d8324527cb85e",
+  "homepage": "https://github.com/webslides/webslides#readme",
+  "jest": {
+    "collectCoverage": true
+  },
+  "keywords": [
+    "webslides",
+    "presentation",
+    "css"
+  ],
+  "license": "MIT",
+  "main": "static/js/webslides.js",
+  "maintainers": [
+    {
+      "name": "alaguna",
+      "email": "sombragriselros@gmail.com"
+    }
+  ],
+  "name": "webslides",
+  "optionalDependencies": {},
+  "pre-commit": [
+    "lint"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webslides/webslides.git"
+  },
+  "scripts": {
+    "build": "npm-run-all -s lint build:*",
+    "build:min": "webpack --output-filename [name].min.js -p",
+    "build:normal": "webpack",
+    "dev": "webpack-dev-server",
+    "lint": "npm-run-all -p lint:*",
+    "lint:css": "sass-lint -v -f stylish",
+    "lint:js": "eslint ./src/js --cache --ignore-pattern .gitignore",
+    "lint:tests": "eslint ./test --cache --ignore-pattern .gitignore",
+    "prebuild": "rimraf static/js/webslide*",
+    "test": "jest && codecov"
+  },
+  "version": "1.4.2"
+}
