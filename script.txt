@@ -1,0 +1,14 @@
+If there is one design pattern you should learn today, MVC is it. 
+This pattern is tried and true - it has been used and tested across many different languages and by generations of programmers.
+It is one of the most common patterns you will see and not knowing it can set you back.
+Within the last few years alone, JavaScript MVC frameworks such as backbone, ember, and Angular have taken the web by storm.
+You can go further back and find full stack MVC frameworks such as Django, Ruby on Rails, and ASP.NET MVC too.
+Even if you don't use a framework, you can organize your code in an MVC way too.
+Before we dive into the details, let's set the context.
+
+Apps are becoming more complex. Their average code bases are growing. 
+Within the last year, deployed web app code increased by almost 25%!
+
+More code means more to manage and often that means more headaches.
+If you want to future proof your code, use MVC. 
+Avoid programming nightmares by using MVC to organize your code.
