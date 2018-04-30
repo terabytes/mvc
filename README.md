@@ -2,4 +2,4 @@
 
 Presentation that describes the model-view-controller software architecture design pattern
 
-Check out our presentation [here](http://mvc.tbyte.me).
+Check out our presentation [here](http://mvc.tbyte.me). This is best viewed on Desktop browsers and was *not* designed for mobile viewing.
